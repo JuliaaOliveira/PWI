@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(246, 236, 236);
+
+}
+
+.Cabecalho{
+    width: 100%;
+    height: 18%;
+    background-color:black;
+    position:Fixed;
+}
+  
+#logo {
+    float: left;
+    width: 20%;
+    height: 100%;   
+}
+#menu{
+    float: right;
+    width: 80%;
+    height: 40%;
+    text-align: center;
+}
+nav{
+    width:100%;
+    height: 30px;
+}
+ul{
+    width:100%;
+    list-style: none;
+}
+li a{
+    width: 15%;
+    height: 50%;
+    float:left;
+    text-align: center;
+    text-decoration: none;
+    color: #F3B6B6;
+    font-size: 150%;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+li a:hover{
+    color:goldenrod;
+    text-transform:uppercase;
+}
+
+.facebook{
+    color: goldenrod;
+    width: 5%;
+    height: 80%;
+}
+
+.facebook:hover{
+    transform: scale(1.5); 
+   
+}
+
+.instagram{
+    color: goldenrod;
+    width: 5%;
+    height: 80%;
+}
+
+.instagram:hover{
+    transform: scale(1.5); 
+}
+
+.youtube{
+    color: goldenrod;
+    width: 5%;
+    height: 80%;
+}
+
+.youtube:hover{
+    transform: scale(1.5); 
+}
+
+.twitter{
+    color: goldenrod;
+    width: 5%;
+    height: 80%;
+}
+
+.twitter:hover{
+    transform: scale(1.5); 
+    
+}
+
+img{
+    width: 80%;
+    height: 100%;
+}
+
+#formulario{
+    font-family: sans-serif;
+    font-size: 1em;
+    color:goldenrod;
+    margin-left: 30%;
+    margin-top: 13px;
+    justify-content: center ;
+}
+
+#Titulo{
+    font-family: sans-serif;
+    color:goldenrod;
+    margin-left: 7%;
+
+}
+
+#subtitulo{
+    font-family: sans-serif;
+    color:goldenrod;
+    margin-left: 10%;
+}
+
+
+.rodape {
+    height: 100px;
+    background-color: #000000;
+}
+fieldset{
+    border: 0;
+}
+
+input, select, textarea, button{
+    border-radius: 5px;
+}
+
+.campo{
+    margin-bottom: 1em;
+}
+
+.campo label{
+    margin-bottom: 0.2em;
+    color:#b4918f;
+    display: block;
+}
+
+fieldset .grupo .campo{
+    float: left;
+    margin-right: 1em;
+}
+
+.campo input[type="text"], .campo[type="email"], .campo select,.campo textarea{
+    padding: 0.2em;
+    border: 1px solid #D3ad7e;
+    box-shadow: 2px,2px,2px, rgba(70, 64, 64, 0.2);
+    display: block;
+
+}
+.campo select opition{
+    padding-right: 1em;
+}
+
+.campo input:focus, .campo select:focus, .campo textarea:focus{
+    background-color: #0000;
+}
+
+.botao{
+    font-size: 1.2em;
+    background: #d8ab38;
+    border:0;
+    margin-bottom:  1em;
+    color:black;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px,2px,2px rgba(70, 64, 64, 0.2);
+    text-shadow: 1px,1px,1px rgba(70, 64, 64, 0.5);
+    position: absolute;
+    top: 120%;
+    left: 45%;
+    right: -50%;
+    transform :translate(-50%, -50%);
+
+}
+
+.botao:hover{
+    background:#F3B6B6 ;
+    box-shadow: 2px,2px,2px rgba(0,0,0,0,0.2);
+    text-shadow: none;
+}
+
+.contato{
+    text-align: center;
+}
+
+h2.tittle-one {
+    margin-bottom: 25px;
+    font-size: 30px;
+
+}
+
+#confgSociais{
+    float: left;
+    width: 100%;
+   
+  }
+
+.listageral{
+    width: 100%;
+    background: rgb(252, 252, 252);
+}
+
+.itemlista{
+    color: white;
+    float:left;
+    width: 23%;
+    margin-left: 2%;
+}
+
+h3{
+    color: goldenrod;
+    font-family: 'Century Gothic','Verdana', sans-serif;
+}
+
+
+li{
+    color: rgb(0, 0, 0);
+}
