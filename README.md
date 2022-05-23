@@ -1,3 +1,3 @@
-Programação Web
-atividades desenvolvidas durante as Aula de programação web
+Atividades desenvolvidas nas aulas de Programação Web
+
 
